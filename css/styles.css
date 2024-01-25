@@ -259,6 +259,7 @@ img {
   align-items: flex-start;
   gap: 32px;
   flex-shrink: 0;
+  border: 1px solid #e7e9fc;
 }
 
 .porfolio-text {
