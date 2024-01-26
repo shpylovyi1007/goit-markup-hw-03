@@ -47,6 +47,7 @@ a {
 
 img {
   width: 100%;
+  display: block;
 }
 
 .container {
@@ -179,7 +180,6 @@ img {
   width: calc((100% - 72px) / 4);
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
 }
 
 .heading-benefits {
@@ -237,23 +237,11 @@ img {
 .name-list {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
-  display: inline-flex;
-  padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
 }
 
 .name-text {
-  display: flex;
-  width: 232px;
   padding: 32px 0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
 }
 
 .text-position {
@@ -283,12 +271,7 @@ img {
 }
 
 .portfolio-list {
-  display: inline-flex;
   width: calc((100% - 48px) / 3);
-  padding-bottom: 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
   flex-shrink: 0;
   border: 1px solid #e7e9fc;
 }
@@ -307,18 +290,12 @@ img {
 
 .footer-box {
   background-color: #2e2f42;
-  height: 312px;
   flex-shrink: 0;
   padding: 100px 0;
 }
 
 .footer-logo-text {
   color: #f4f4fd;
-  display: flex;
-  width: 71px;
-  height: 21px;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .footer-logo {
